@@ -1,0 +1,30 @@
+<?	
+	$_[] = "<html>";
+	$_[] = "\n\n<!-- START HEAD -->";
+	$_[] = "<head>";
+	$_[] = "\t<title>MUP | ".PAGE."</title>";
+	$_[] = "\t<link rel=\"stylesheet/less\" type=\"text/css\" href=\"/css/styles.php\" />";
+	$_[] = "\t<script src=\"/libs/less.js\"></script>";
+    $_[] = "\t<script src=\"/libs/jquery.js\"></script>";
+    $_[] = "\t<script src=\"/libs/jqui/development-bundle/ui/jquery-ui.custom.js\"></script>";
+    $_[] = "\t<script src=\"/libs/jquery.dataTables.js\"></script>";
+    $_[] = "\t<script src=\"/libs/tablesorter/jquery.metadata.js\"></script>";
+    $_[] = "\t<script src=\"/libs/tablesorter/jquery.tablesorter.js\"></script>";
+    $_[] = "\t<script src=\"/libs/timepicker.js\"></script>";
+	$_[] = "\t<script src=\"/libs/highcharts/js/highcharts.src.js\"></script>";
+	$_[] = "\t<script src=\"/libs/numeral.min.js\"></script>";
+	$_[] = "\t<script src=\"/libs/highcharts/js/highcharts-more.js\"></script>";
+	$_[] = "\t<script src=\"/libs/highcharts/js/themes/grid.js\"></script>";
+	$_[] = "\t<script src=\"/libs/jquery.tabletojson.min.js\"></script>";
+	$_[] = "\t<script src=\"/libs/highcharts/js/modules/exporting.js\"></script>";
+//	$_[] = "\t<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css\">";
+    $_[] = "\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/libs/jquery-ui.css\" />";
+	$_[] = "</head>";
+	$_[] = "<!-- END HEAD -->";
+	$_[] = "\n\n<!-- START BODY -->";
+	$_[] = "<body>";
+	$_[] = "\t<div class=\"popup\">".AJAX::LoadingBar()."</div>";
+	$_[] = "\t<div class=\"loadingpopup\">".AJAX::LoadingBar()."</div>";
+	$_[] = "\t<div class=\"cornerpopup\">".AJAX::LoadingBar()."</div>";
+	echo implode("\n",$_);
+?>
